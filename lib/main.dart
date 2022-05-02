@@ -2,10 +2,10 @@ import 'package:flutter/material.dart';
 import 'package:estrada/gridviewempleados.dart';
 
 void main() {
-  runApp(MyApp());
+  runApp(Cibercafe());
 }
 
-class MyApp extends StatelessWidget {
+class Cibercafe extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(

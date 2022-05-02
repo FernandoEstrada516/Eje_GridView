@@ -2,10 +2,10 @@ import 'package:flutter/material.dart';
 import 'package:estrada/gridviewempleados.dart';
 
 void main() {
-  runApp(Cibercafe());
+  runApp(CiberCafe());
 }
 
-class Cibercafe extends StatelessWidget {
+class CiberCafe extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
@@ -14,6 +14,6 @@ class Cibercafe extends StatelessWidget {
         theme: ThemeData(
           primarySwatch: Colors.blue,
         ),
-        home: MyHomePage());
+        home: PaginaInicial());
   }
 }
